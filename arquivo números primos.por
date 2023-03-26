@@ -1,16 +1,16 @@
 programa {
   funcao inicio() {
     algoritmo Verificarprimo
-   inteiro num, cont, divisores
+   inteiro num,
     divisores = 1 
    cont = 3
 
-    escreva ("digite um número inteiro maior que 1 :")
+    escreva ("digite um nÃºmero inteiro maior que 1 :")
     leia (num)
-   se (num == 2 ) escreva ("Por incrivel que pareça o número 2 é sim um número primo !")
-   senao se (num % 2 == 0) escreva ("Esse número não é primo")
+   se (num == 2 ) escreva ("Por incrivel que pareÃ§a o nÃºmero 2 Ã© sim um nÃºmero primo !")
+   senao se (num % 2 == 0) escreva ("Esse nÃºmero nÃ£o Ã© primo")
   
-  senao escreva ("Esse número é primo !")
+  senao escreva ("Esse nÃºmero Ã© primo !")
  
   
   
